@@ -1,3 +1,44 @@
-ul li {
-  list-style-type: georgian;
+
+.page {
+  display: grid;
+  width: 1200px;
+  margin: 0 auto;
+  color: rgb(199, 205, 205);
+
+grid-template-areas: 
+'h h'
+'n c'
+;
+
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+  grid-gap: 10px;
 }
+
+
+.header {
+  background-color: rgb(30, 31, 35);
+  grid-area: h;
+}
+
+.sidebar {
+  background-color: rgb(30, 31, 35);
+  grid-area: n;
+}
+
+
+.main {
+  background-color: rgb(30, 31, 35);
+  grid-area: c;
+}
+
+
+
+.logo {
+  width: 50px;
+  }
+    
+  .main_photo {
+  width: 700px;
+  }
+
