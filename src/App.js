@@ -1,16 +1,16 @@
 import React from 'react';  /* Если что удалить */
 import logo from './logo.svg';
 import './App.css';
-import Header from './components/Header';
-import Sidebar from './components/Sidebar';
-import Profile from './components/Profile';
+import Header from './components/Header/Header';
+import Nav from './components/Nav/Nav';
+import Profile from './components/Profile/Profile';
 
 
 const App = () => { 
   return ( 
     <div className='page'>
       <Header />
-      <Sidebar />
+      <Nav />
       <Profile />
     </div>
   );

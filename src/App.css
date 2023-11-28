@@ -16,29 +16,10 @@ grid-template-areas:
 }
 
 
-.header {
-  background-color: rgb(30, 31, 35);
-  grid-area: h;
-}
-
-.sidebar {
-  background-color: rgb(30, 31, 35);
-  grid-area: n;
-}
-
-
-.main {
-  background-color: rgb(30, 31, 35);
-  grid-area: c;
-}
 
 
 
-.logo {
-  width: 50px;
-  }
+
+
+
     
-  .profile_photo {
-  width: 700px;
-  }
-

@@ -1,0 +1,11 @@
+.profile_photo {
+    width: 700px;
+    }
+  
+ .content {
+     background-color: rgb(30, 31, 35);
+     grid-area: c;    }
+
+.item {
+color: green;
+}
